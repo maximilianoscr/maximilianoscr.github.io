@@ -266,3 +266,7 @@ article.galeria {
   max-height: 100vh;
   overflow: hidden;
 }
+article.galeria div{
+ width:15%
+ height:20%
+}
