@@ -38,9 +38,9 @@ article {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent; /* Color de fondo tenue */
-  z-index: 9999; /* Asegura que el navbar esté por encima de otros elementos */
-  transition: all 0.3s ease; /* Transición suave al mostrar/ocultar el menú */
+  background-color: transparent; 
+  z-index: 9999; 
+  transition: all 0.3s ease; 
   opacity: 10%;
 }
 #navbar {
@@ -66,10 +66,10 @@ article {
 
 .navbar a {
   text-decoration: none;
-  color: #333; /* Color de texto */
+  color: #333;
   padding: 10px;
   display: block;
-  transition: color 0.3s ease; /* Transición suave para el color de texto */
+  transition: color 0.3s ease; /* Transicion suave para el color de texto */
 }
 
 .navbar a:hover {
@@ -92,11 +92,11 @@ article {
 }
 
 .navbar .submenu a {
-  color: #333; /* Color de texto del submenu */
+  color: #333; 
 }
 
 .navbar .submenu a:hover {
-  color: #ff6600; /* Color de texto del submenu al pasar el cursor por encima */
+  color: #ff6600; 
 }
 
 .modal {
@@ -107,21 +107,21 @@ article {
 }
 
 .trailer {
-  padding-top: 20px; /* Espacio interno del div */
+  padding-top: 20px;
   background-color: #fefefe;
   margin: 0% auto;  
-  height: 100vh; /* 100% de la altura del viewport */
+  height: 100vh;
   text-align: center;
   background-image: url('../images/Fondo4.jpg');
-  background-size: cover; /* Ajusta el tama�o de la imagen al div */
-  background-position: center; /* Centra la imagen dentro del div */
+  background-size: cover;
+  background-position: center;
   position: relative;
   width: 100%;
 }
 .trailer h2 {
   text-align: left;
-  margin-top: 5%; /* Separaci�n del borde superior */
-  margin-bottom: 10px; /* Separaci�n del borde inferior */
+  margin-top: 5%;
+  margin-bottom: 10px;
 }
 .personajes {
   width: 100%;
@@ -139,8 +139,8 @@ article {
   text-align: center;
 }
 img.fondo {
-  width: 100%; /* Tama�o completo del contenedor */
-  height: 100%; /* Tama�o completo del contenedor */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .personajes div:hover{
@@ -151,7 +151,7 @@ img.fondo {
 }
 .video iframe{
   margin-top: 2%;
-  height: 400px; /* Altura fija del iframe */
+  height: 400px; 
   width: 40%;
   
 }
@@ -159,19 +159,19 @@ img.fondo {
   margin-left: 5%;
   margin-right: 7%;
   height: 20%;
-  background: rgba(247, 247, 247, 0.2); /* Color de fondo sobrio */
-  border: 1px solid #ccc; /* Borde s�lido */
-  border-radius: 8px; /* Radio de borde para suavizar las esquinas */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para resaltar el texto */
-  color: #333; /* Color del texto */
-  padding: 10px; /* Espacio interno para el texto */
+  background: rgba(247, 247, 247, 0.2); 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: #333; 
+  padding: 10px; 
 }
 /*pruebas*/
 h1 {
   margin-top:3.5%;
   font-family: 'Titillium Web', sans-serif;
   font-size:3rem;
-  -webkit-text-stroke: 1.3px #000; /* Grosor y color del borde */
+  -webkit-text-stroke: 1.3px #000; 
   margin-bottom: 10px;
 }
 
