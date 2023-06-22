@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   resetNavbarOpacity();
   function myFunction() {
-    var x = document.getElementById("menu_bar");
+    var x = document.getElementById("navbar");
     if (x.className === "") {
       x.className += " responsive";
     } else {
