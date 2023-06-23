@@ -37,25 +37,6 @@ article {
   height: 100%;
   margin: 0;
 }
-.contenedor_fondo {
-  height: 100vh;
-  overflow: hidden;
-}
-.contenedor_fondo img {
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.modal {
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .trailer {
   margin: 0% auto;  
   height: 100vh;
@@ -70,16 +51,12 @@ article {
   margin-top: 5%;
   margin-bottom: 10px;
 }
-.personajes {
+article.personajes {
   width: 100%;
-	display: flex;
-  justify-content: space-between;;
-	align-items: center;
-}
-.personajes div {
-  margin-left: 3%;
-  margin-right: 3%;
-  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  justify-content: space-evenly;
 }
 .personajes p{
   text-align: center;
@@ -143,10 +120,7 @@ p {
 
 }
 
-a {
-  color: #ff6600;
-  text-decoration: none;
-}
+
 
 a:hover {
   color: #ff4500;
@@ -210,9 +184,6 @@ footer img{
   gap: 20px;
   justify-content: space-evenly;
 }
-.gal{
- position: relative;
-}
 .gal img {
   width: 100%;
   height: 100%;
@@ -259,7 +230,9 @@ div.texto-persona {
   margin-left: 10%;
 }
 /*pruebas torta*/
-
+.fa {
+  padding: 3%;
+}
 
 nav {
   width: 100%;
@@ -301,28 +274,7 @@ nav a:hover {
 
 #navbar.hover {
   opacity: 1;
-}/*
-nav a {
-  padding: 10px;
-  display: block;
-  transition: color 0.3s ease; 
 }
-nav {
-  transition: all 0.3s ease; 
-  opacity: 10%;
-  background-color: transparent; 
-}
-
-nav ul{
-  padding: 1.5%;
-}
-nav ul li{
-	display: inline-block;
-}
-a{
-	text-decoration: none;
-	color: #000000;
-}*/
 .icon { display: none; }
 /*pruebas*/
 @media (max-width: 480px) { 
@@ -391,6 +343,12 @@ a{
   }
   footer img{
     max-width: 1.5rem;
+  }
+  article.personajes {
+    display: none;
+  }
+  article.persona {
+    display: grid;
   }
 }
 /*submenu*/
