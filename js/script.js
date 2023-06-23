@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-  /*Para la barra*/
+/*document.addEventListener('DOMContentLoaded', function() {
   var navbar = document.getElementById('navbar');
   var timer;
   function setNavbarOpacity(opacity) {
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   resetNavbarOpacity();
 
-});
+});*/
 function myFunction() {
   var x = document.getElementById("navbar");
   if (x.className === "") {

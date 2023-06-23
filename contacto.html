@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Bienvenido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body class="contacto">
+    <header>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="navbar" class="">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="personajes.html">Ver personajes</a></li>
+            <li><a href="trailer.html">Introducci&oacute;n + Trailer</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+    </header>
+    <article>
+        <div class="contact_form">
+
+            <div class="formulario">			
+            <h1>Formulario de contacto</h1>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+    
+    
+                        <form action="submeter-formulario.php" method="post">				
+    
+                            
+                                    <p>
+                                        <label for="nombre" class="colocar_nombre">Nombre
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                    </p>
+                                
+                                    <p>
+                                        <label for="email" class="colocar_email">Email
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                    </p>
+                            
+                                    <p>
+                                        <label for="telefone" class="colocar_telefono">Teléfono
+                                        </label>
+                                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                    </p>		
+                                
+                                    <p>
+                                        <label for="website" class="colocar_website">Sitio web
+                                        </label>
+                                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                    </p>		
+                                
+                                    <p>
+                                        <label for="asunto" class="colocar_asunto">Asunto
+                                            <span class="obligatorio">*</span>
+                                        </label>
+                                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                    </p>		
+                                
+                                    <p>
+                                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                                            <span class="obligatorio">*</span>
+                                        </label>                     
+                                             <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                       </p>	  								
+                                
+                                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                                    <p class="aviso">
+                                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                                    </p>					
+                            
+                        </form>
+            </div>	
+        </div>
+    </article>
+    <footer>
+        <img src="images/redes/facebook.png" alt="Facebook">
+        <img src="images/redes/twitter.png" alt="Twitter">
+        <img src="images/redes/youtube.png" alt="Youtube">
+        <img src="images/redes/instagram.png" alt="Instagram">
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
