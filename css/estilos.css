@@ -6,7 +6,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
 body.casa {
   margin: 0;
@@ -58,15 +57,12 @@ article {
 }
 
 .trailer {
-  padding-top: 20px;
-  background-color: #fefefe;
   margin: 0% auto;  
   height: 100vh;
   text-align: center;
  /* background-image: url('../images/Fondo4.jpg');
   background-size: cover;
   background-position: center;*/
-  position: relative;
   width: 100%;
 }
 .trailer h2 {
@@ -210,10 +206,10 @@ footer img{
 }
 /*galeria*/
 .galeria {
-  margin-top: 5%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, 15%);
   gap: 20px;
+  justify-content: space-evenly;
 }
 .gal{
  position: relative;
