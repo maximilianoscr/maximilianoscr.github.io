@@ -77,7 +77,6 @@ article {
 	align-items: center;
 }
 .personajes div {
-	margin-top:4%; 
   margin-left: 3%;
   margin-right: 3%;
   height: 150px;
@@ -239,7 +238,7 @@ article.persona {
   margin-left: 5%;
   margin-right: 7%;
   height: 70%;
-  width: 60%;
+  width: 70%;
   background: rgba(247, 247, 247, 0.2); 
   border: 1px solid #ccc; 
   border-radius: 8px; 
@@ -276,6 +275,7 @@ nav ul {
   margin: 0;
   padding: 1.5%;
   display: flex;
+  padding-bottom: 0px;
 }
 
 nav li {
