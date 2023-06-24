@@ -40,7 +40,6 @@ article {
 .trailer {
   margin: 0% auto;  
   height: 100vh;
-  text-align: center;
  /* background-image: url('../images/Fondo4.jpg');
   background-size: cover;
   background-position: center;*/
@@ -57,8 +56,11 @@ article.personajes {
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 20px;
   justify-content: space-evenly;
+  margin-left: 2%;
 }
 .personajes p{
+  color: #000;
+  FONT-SIZE: x-large;
   text-align: center;
 }
 img.fondo {
@@ -66,9 +68,16 @@ img.fondo {
   height: 230px;
   object-fit: cover;
 }
-.personajes div {
-  width: 150px;
-  /*transform: skew(10deg, 10deg);*/
+article.personajes div{
+  width: 150PX;
+  margin-top: 10%;
+  background: rgba(122, 120, 120, 0.397); 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: rgb(255, 255, 255); 
+  padding: 10px; 
+  display: grid;
 }
 .personajes div:hover{
   transform: scale(1.1);
@@ -196,7 +205,7 @@ footer img{
 /*personajes*/
 .jane {
   height: 350px;
-  margin-left: 1%;
+  margin-left: 18%;
   margin-top: 1%;
 }
 /* Estilos para la columna de la imagen */
@@ -235,19 +244,20 @@ div.texto-persona {
   color:#0c0c0c;
   font-size: x-large;
   width: 28%;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 /*pruebas torta*/
 .fa {
   padding: 3%;
 }
-
+a {
+  background-color: #fff1de;
+}
 nav {
   width: 100%;
-  background-color: transparent; 
+  background-color:#fff1de; 
   z-index: 9999; 
   transition: all 0.3s ease; 
-  opacity: 10%;
 }
 
 
@@ -275,14 +285,7 @@ nav a {
 nav a:hover {
   color: #ff6600;
 }
-#navbar {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
 
-#navbar.hover {
-  opacity: 1;
-}
 .icon { display: none; }
 /*pruebas*/
 @media (max-width: 480px) { 
@@ -336,6 +339,12 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  section#trailer{
+    margin-top: 0;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .principal{
     height: 250px;
     padding: 10%;
@@ -357,13 +366,18 @@ nav a:hover {
     font-size: 1rem;
   }
   footer{
+    width: 85%;
     height: 80px;
+    justify-content: space-evenly;
   }
   footer img{
-    max-width: 1.5rem;
+    max-width: 2.5rem;
   }
   article.personajes {
     display: grid;
+    margin-left: 7%;
+    width: 93%;
+    margin-bottom: 20%;
   }
   article.persona {
     display: grid;
@@ -400,7 +414,7 @@ nav a:hover {
   color: #e9feff;
   background-color: rgba(51, 51, 51, 0.699);
   margin-bottom: 20px;
-  width: 40%;
+  width: 70%;
   }
   .texto-pers p {
     color: #0c0c0c;
@@ -414,11 +428,14 @@ nav a:hover {
   .video {
     display:block;
   }
+  .video p{
+    margin-left: 0;
+  }
   .rating {
     position: relative;
-    width: 70%;
-    margin-left: 5%;
-    margin-right: 15%;
+    margin-top: 7%;
+    width: 30%;
+    margin-left: 17%;
     background: rgba(247, 247, 247, 0.2);
     border: 1px solid #ccc;
     border-radius: 8px; 
@@ -442,15 +459,12 @@ nav a:hover {
     padding: 0;
     background-image: url('../images/fond_form.jpg');
   }
-  #navbar {
-    opacity: 0;
-  }
 }
 #titulo_p {
   text-align: center;
 }
 img.titulito {
-  width: 40%;
+  width: 20%;
   margin-top:3%;
 }
 /*submenu*/
@@ -475,6 +489,11 @@ img.titulito {
 
 #navbar .submenu a:hover {
   color: #ff6600; /* Color de texto del submenu al pasar el cursor por encima */
+}
+.home {
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 40%;
 }
   /*form contacto*/
   /* Importación de fuentes de google fonts */ 
