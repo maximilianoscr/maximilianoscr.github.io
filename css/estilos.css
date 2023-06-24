@@ -135,7 +135,13 @@ h2 {
   margin-bottom: 20px;
   width: 40%;
 }
-
+#video_p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 20px;
+  width: 83%;
+}
 p {
   font-family: 'Titillium Web', sans-serif;
   font-size: 14px;
