@@ -446,6 +446,9 @@ nav a:hover {
     opacity: 0;
   }
 }
+#titulo_p {
+  text-align: center;
+}
 img.titulito {
   width: 40%;
   margin-top:3%;
