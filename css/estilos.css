@@ -358,7 +358,7 @@ nav a:hover {
     max-width: 1.5rem;
   }
   article.personajes {
-    display: none;
+    display: grid;
   }
   article.persona {
     display: grid;
