@@ -467,7 +467,7 @@ img#titulito {
   width: 39%;
   margin-top:3%;
 }
-span.complemento_pequeño {
+span#complemento_pequeño {
   font-size: small;
 }
 /*submenu*/
