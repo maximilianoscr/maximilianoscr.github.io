@@ -411,6 +411,36 @@ nav a:hover {
   article.personajes {
     display: none;
   }
+  .video {
+    display:block;
+  }
+  .rating {
+    position: relative;
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 15%;
+    background: rgba(247, 247, 247, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333; 
+    padding: 10px;
+  }
+  #video-iframe {
+    width: 80%;
+    margin-right: 2%;
+  }
+  body.trailer {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  img#titulito {
+    width: 80%;
+  }
+}
+img.titulito {
+  width: 40%;
+  margin-top:3%;
 }
 /*submenu*/
 #navbar .submenu {
