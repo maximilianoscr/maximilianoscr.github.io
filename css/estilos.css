@@ -463,8 +463,8 @@ nav a:hover {
 #titulo_p {
   text-align: center;
 }
-img.titulito {
-  width: 20%;
+img#titulito {
+  width: 39%;
   margin-top:3%;
 }
 /*submenu*/
