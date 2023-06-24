@@ -102,6 +102,17 @@ article.personajes div{
   color: #333; 
   padding: 10px; 
 }
+#video p{
+  margin-left: 5%;
+  margin-right: 7%;
+  height: 20%;
+  background: rgba(247, 247, 247, 0.726); 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  color: #333; 
+  padding: 10px; 
+}
 h1 {
   margin-top:3.5%;
   font-family: 'Titillium Web', sans-serif;
@@ -468,7 +479,7 @@ img#titulito {
   margin-top:3%;
 }
 span#complemento_pequeño {
-  font-size: small;
+  font-size:x-large;
 }
 /*submenu*/
 #navbar .submenu {
