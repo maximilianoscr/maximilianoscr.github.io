@@ -282,6 +282,15 @@ nav a:hover {
 .icon { display: none; }
 /*pruebas*/
 @media (max-width: 480px) { 
+  body {
+    background-image: url('../images/fond_form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  body.casa {
+    background-image: url('../images/fond_form.jpg');
+  }
   header{
     align-items: center;
     justify-content: space-around;
