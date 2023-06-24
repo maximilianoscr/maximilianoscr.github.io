@@ -437,6 +437,11 @@ nav a:hover {
   img#titulito {
     width: 80%;
   }
+  body.contacto {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fond_form.jpg');
+  }
 }
 img.titulito {
   width: 40%;
