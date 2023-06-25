@@ -49,6 +49,7 @@ article {
   text-align: left;
   margin-top: 5%;
   margin-bottom: 10px;
+  font-size: small;
 }
 article.personajes {
   width: 100%;
@@ -87,6 +88,7 @@ article.personajes div{
 }
 .video iframe{
   margin-top: 2%;
+  margin-bottom: 17%;
   height: 400px; 
   width: 40%;
   
@@ -115,15 +117,14 @@ article.personajes div{
 }
 h1 {
   margin-top:3.5%;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size:3rem;
   -webkit-text-stroke: 1.3px #000; 
   margin-bottom: 10px;
 }
-
 h2 {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 44px;
   color: #333;
   margin-bottom: 10px;
 }
@@ -197,7 +198,7 @@ footer{
   width: 100%;
   z-index: 9999;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 	align-items: center;
 }
 footer img{
@@ -268,11 +269,10 @@ div.texto-persona {
   padding: 3%;
 }
 a {
-  background-color: #fff1de;
+  background: transparent;
 }
 nav {
   width: 100%;
-  background-color:#fff1de; 
   z-index: 9999; 
   transition: all 0.3s ease; 
 }
@@ -298,7 +298,30 @@ nav a {
   transition: color 0.3s ease; 
 
 }
-
+@media (min-width: 481px) {
+  h1{
+    color:#3b6a81;
+  }
+  span#complemento_pequeño {
+    font-size: xx-large;
+    color:#3b6a81;
+  }
+  #titulo_p {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  img#titulito {
+    width: 39%;
+    margin-top:3%;
+    margin-left: 32%;
+  }
+  .aparte {
+    color: #ab7e44;
+    margin-left: 2%;
+  }
+  nav {
+    background-color:transparent; 
+  }
+}
 nav a:hover {
   color: #ff6600;
 }
@@ -319,7 +342,6 @@ nav a:hover {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #ffffff;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -364,7 +386,6 @@ nav a:hover {
   }
   .principal{
     height: 250px;
-    padding: 10%;
   }
   .secundario{
     margin-top: 1%;
@@ -376,6 +397,9 @@ nav a:hover {
   .secundario div a img{
     margin-bottom: 1rem;
   }
+  h1 {
+    color:#ab7e44;
+  }
   h2{
     font-size: 1rem;
   }
@@ -383,7 +407,6 @@ nav a:hover {
     font-size: 1rem;
   }
   footer{
-    width: 85%;
     height: 80px;
     justify-content: space-evenly;
   }
@@ -412,7 +435,9 @@ nav a:hover {
   article.personajes div p{
      color: whitesmoke;
   }
-
+  nav {
+    background-color: #fff1de;
+  }
   .submenu {
     display: none;
     position: absolute;
@@ -444,6 +469,7 @@ nav a:hover {
   }
   .video {
     display:block;
+    margin-left: 20%;
   }
   .video p{
     margin-left: 0;
@@ -451,7 +477,7 @@ nav a:hover {
   .rating {
     position: relative;
     margin-top: 7%;
-    width: 30%;
+    width: 37%;
     margin-left: 17%;
     background: rgba(247, 247, 247, 0.2);
     border: 1px solid #ccc;
@@ -470,6 +496,7 @@ nav a:hover {
   }
   img#titulito {
     width: 80%;
+    margin-left: 10%;
   }
   body.contacto {
     margin: 0;
@@ -477,16 +504,9 @@ nav a:hover {
     background-image: url('../images/fond_form.jpg');
   }
 }
-#titulo_p {
-  text-align: center;
-}
-img#titulito {
-  width: 39%;
-  margin-top:3%;
-  margin-left: 32%;
-}
+
 span#complemento_pequeño {
-  font-size:x-large;
+  font-size: xx-large;
 }
 /*submenu*/
 #navbar .submenu {
@@ -514,7 +534,7 @@ span#complemento_pequeño {
 .home {
   margin-top: 5%;
   margin-left: 2%;
-  width: 40%;
+  width: 48%;
 }
   /*form contacto*/
   /* ImportaciÃ³n de fuentes de google fonts */ 
@@ -603,14 +623,13 @@ span{
 
 
 h1{
-  margin-left: 4%;
-	font-size: 39px;  
-	color: #ab7e44;
+  margin-left: 11%;
+	font-size: 54px;
 }
 
 
 h3{
-	font-size: 16px; 
+  font-size:34px;
 	padding-bottom: 30px;
 	color: #0e0e0e;   
 }
