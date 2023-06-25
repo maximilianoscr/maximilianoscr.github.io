@@ -530,12 +530,7 @@ body{
 
 .contact_form{	
 	width: 460px; 
-  height: auto;
-  margin: 80px auto;
 	border-radius: 10px;  
-	padding-top: 30px;
-	padding-bottom: 20px;  
-  background-color: #fbfbfb; 
   padding-left: 30px; 
 }
 
@@ -608,9 +603,8 @@ span{
 
 
 h1{
+  margin-left: 4%;
 	font-size: 39px;  
-	text-align: letf; 
-	padding-bottom: 20px; 
 	color: #ab7e44;
 }
 
