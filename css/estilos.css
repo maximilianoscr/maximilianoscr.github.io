@@ -214,6 +214,7 @@ footer img{
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 20px;
   justify-content: space-evenly;
+  margin-bottom: 17%;
 }
 .gal img {
   width: 100%;
@@ -459,6 +460,7 @@ nav a:hover {
   width: 70%;
   }
   .texto-pers p {
+    margin-bottom: 17%;
     color: #0c0c0c;
   }
   .titulo_p {
