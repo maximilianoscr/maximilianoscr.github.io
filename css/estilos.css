@@ -161,7 +161,7 @@ a:hover {
   position: fixed;
   top: 50%;
   left: 1.2%;
-  width: 13%;
+  width: 14%;
   margin-left: 5%;
   margin-right: 15%;
   background: rgba(247, 247, 247, 0.2);
@@ -174,7 +174,9 @@ a:hover {
 .rating h2{
   text-align: center;
 }
-
+#separado {
+  margin-left: 1%;
+}
 .star {
   display: inline-block;
   width: 25px; 
@@ -182,6 +184,7 @@ a:hover {
   background-image: url('../images/estar_vacia.webp');
   background-size: cover;
   margin-bottom: 7%;
+  margin-left: 5%;
 }
 
 .star.selected {
@@ -193,6 +196,7 @@ a:hover {
 }
 /*footer*/
 footer{
+  position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 9999;
@@ -345,6 +349,9 @@ nav a:hover {
 .icon { display: none; }
 /*pruebas*/
 @media (max-width: 480px) { 
+  .star {
+    margin-left: 0%;
+  }
   .galeria2 {
     margin-top: 102%;
     margin-bottom: 105%;
@@ -498,7 +505,7 @@ nav a:hover {
   .rating {
     position: relative;
     margin-top: 7%;
-    width: 37%;
+    width: 38%;
     margin-left: 17%;
     background: rgba(247, 247, 247, 0.2);
     border: 1px solid #ccc;
