@@ -136,6 +136,13 @@ h2 {
   margin-bottom: 20px;
   width: 40%;
 }
+.introduction2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 20px;
+  width: 40%;
+}
 #video_p {
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
@@ -482,10 +489,17 @@ nav a:hover {
   font-size: 15px;
   color: #e9feff;
   background-color: rgba(51, 51, 51, 0.699);
-  margin-bottom: 20px;
   width: 70%;
   }
-  .texto-pers p {
+  .introduction2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #e9feff;
+    background-color: rgba(51, 51, 51, 0.699);
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  div.texto-pers {
     margin-bottom: 17%;
     color: #0c0c0c;
   }
